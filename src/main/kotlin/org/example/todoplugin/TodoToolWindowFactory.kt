@@ -104,6 +104,7 @@ class TodoPanel(private val project: Project) : JPanel(BorderLayout()) {
         )
     }
 
+
     private fun updateFilter() {
         val filterKeyword = filterField.text
         todoStateService.setFilterKeyword(filterKeyword)

@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="269baa75-bca9-40da-9677-eac8ae7047a2" name="Changes" comment="done jii" />
+    <list default="true" id="269baa75-bca9-40da-9677-eac8ae7047a2" name="Changes" comment="co">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +64,7 @@
     &quot;Gradle.KotlinTodoPlugin [setupDependencies].executor&quot;: &quot;Run&quot;,
     &quot;Kotlin.MainKt.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/ashwanisingh/Intellij Projects/KotlinTodoPlugin&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;/Users/ashwanisingh/Intellij Projects/KotlinTodoPlugin/src/main/kotlin/Main.kt&quot;,

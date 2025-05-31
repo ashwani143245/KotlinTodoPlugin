@@ -1,0 +1,25 @@
+<idea-plugin>
+    <id>org.example.todoplugin</id>
+    <name>Kotlin Todo Plugin</name>
+    <vendor>Your Name</vendor>
+    <description>A plugin that scans Kotlin files for TODO comments, highlights them, and shows them in a side panel</description>
+
+    <depends>com.intellij.modules.platform</depends>
+    <depends>org.jetbrains.kotlin</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Tool Window for displaying TODOs -->
+        <toolWindow id="Kotlin TODOs" 
+                    anchor="right" 
+                    factoryClass="org.example.todoplugin.TodoToolWindowFactory" 
+                    icon="/icons/todo.svg"/>
+        
+        <!-- Annotator for highlighting TODOs -->
+        <annotator language="kotlin" 
+                   implementationClass="org.example.todoplugin.TodoHighlightAnnotator"/>
+                   
+        <!-- Service for persisting TODO state -->
+        <applicationService serviceImplementation="org.example.todoplugin.TodoStateService"/>
+    </extensions>
+</idea-plugin>
+
